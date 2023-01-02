@@ -13,7 +13,7 @@ async function handleResponse(response: Response) {
       // eslint-disable-next-line no-empty
     } catch {}
 
-    throw new CustomError(response.status, message)
+    throw new CustomError(response.status, message);
   }
 }
 
